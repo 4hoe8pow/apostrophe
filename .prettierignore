@@ -37,3 +37,6 @@ yarn.lock
 server
 
 atelier/out/*
+
+# Panda CSS
+src/styled-system
