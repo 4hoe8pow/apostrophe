@@ -4,4 +4,22 @@
  */
 @layer reset, base, tokens, recipes, utilities;
 
+@font-face {
+    font-family: 'Kaisei HarunoUmi';
+    src: url(./components/fonts/KaiseiHarunoUmi-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Kaisei HarunoUmi';
+    src: url(./components/fonts/KaiseiHarunoUmi-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Kaisei HarunoUmi';
+    src: url(./components/fonts/KaiseiHarunoUmi-Bold.ttf);
+    font-weight: 700;
+}
 
+:root {
+    --font-kaisei-harunoumi: 'Kaisei HarunoUmi', sans-serif;
+}
